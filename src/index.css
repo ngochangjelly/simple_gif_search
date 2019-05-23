@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: #fbfafc;
+  font-family: "Brandon Grotesque";
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+input {
+  border: 1.2px solid #141414;
+  background: #fff;
+  width: 50%;
+  font-size: 1.2rem;
+  padding: 10px;
+  outline: none;
+  border-radius: 2px;
+}
+
+::placeholder {
+  font-size: 1.2rem;
+  font-family: "Brandon Grotesque";
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px 20px;
+  margin: 60px;
+}
+
+.error {
+  color: #ff5a5f;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 2.5rem;
+}
+.grid-container {
+  display: grid;
+  grid-gap: 2em 2em;
+  align-items: center;
+  min-height: 70px;
+}
+img {
+  display: inline;
+  object-fit: cover;
+  height: 150px;
+  width: 25%;
+}
+.button {
+  background: #fff;
+  border: 1.2px solid #141414;
+  padding: 15px 25px;
+  border-radius: 40px;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 1.2rem;
+  transition: all 0.2s ease-in-out;
+  outline: none;
+}
+
+.button:hover {
+  background: #141414;
+  color: #fff;
+}
